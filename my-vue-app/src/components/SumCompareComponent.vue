@@ -21,13 +21,7 @@ export default {
       this.totals.splice(index, 1, total);
     }
   },
-  props: {
-    title: {
-      type: String,
-      required: true,
-      default: ''
-    }
-  },
+
 };
 </script>
 
